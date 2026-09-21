@@ -1,0 +1,91 @@
+htmlbody {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    width: 100%;
+    max-width: 700px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+form {
+    background-color: #e9f2f9;
+    border: 1px solid #c5d7e8;
+    padding: 15px;
+}
+
+fieldset {
+    border: 1px solid #b5cadd;
+    margin-bottom: 15px;
+    padding: 15px 10px;
+}
+
+legend {
+    font-size: 14px;
+    color: #333;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.form-group label:first-child {
+    width: 180px;
+    font-size: 13px;
+    color: #333;
+}
+
+.input-control {
+    flex: 1;
+    padding: 4px;
+    border: 1px solid #ccc;
+}
+
+.radio-group,
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+}
+
+.form-actions {
+    text-align: center;
+    margin-top: 10px;
+}
+
+input[type="submit"] {
+    background-color: #3075d6;
+    color: white;
+    border: 1px solid #2863b7;
+    padding: 6px 15px;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+input[type="reset"] {
+    background-color: #848484;
+    color: white;
+    border: 1px solid #6b6b6b;
+    padding: 6px 15px;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-left: 5px;
+} 
