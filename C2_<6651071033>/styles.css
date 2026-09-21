@@ -1,0 +1,127 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.site-header {
+    background-color: #00a884;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.site-header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.site-header p {
+    margin: 5px 0 0;
+    font-size: 14px;
+}
+
+nav {
+    background-color: #e0f2f1;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+nav a.active {
+    background-color: #00897b;
+    color: white;
+}
+
+main {
+    display: flex;
+    max-width: 900px;
+    margin: 20px auto;
+    gap: 20px;
+    padding: 0 10px;
+}
+
+article {
+    background-color: #e8f5e9;
+    flex: 3;
+    padding: 20px;
+    border: 1px solid #c8e6c9;
+    border-radius: 5px;
+}
+
+article header h2 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+article header p {
+    font-size: 12px;
+    color: #555;
+}
+
+article > p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+article footer {
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+aside {
+    background-color: white;
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    align-self: flex-start;
+}
+
+aside h3 {
+    margin-top: 0;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #0056b3;
+}
+
+.site-footer {
+    background-color: #d1e4ed;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.site-footer address {
+    font-style: normal;
+}
